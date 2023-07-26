@@ -1,0 +1,123 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+    margin: 0;
+    padding: 0;
+  }
+  
+  h1 {
+    text-align: center;
+    padding: 20px 0;
+    background-color: #303f9f; /* Indigo */
+    color: #fff; /* White */
+  }
+  
+  .container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff; /* White */
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+  
+  form label {
+    font-weight: bold;
+  }
+  
+  /* ... Other styles ... */
+
+/* Input fields styling */
+input[type="text"],
+input[type="number"] {
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+  width: 100%; /* Make inputs fill the container */
+  margin-bottom: 10px; /* Add margin at the bottom */
+}
+
+/* Button styling */
+button {
+  padding: 10px;
+  background-color: #303f9f; /* Indigo */
+  color: #fff; /* White */
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  width: 100%;
+  margin-bottom: 10px;
+}
+
+/* Label styling */
+label {
+  font-weight: bold;
+  display: block;
+  margin-bottom: 5px;
+}
+
+/* Section heading styling */
+h2 {
+  font-size: 1.2rem;
+  margin-top: 20px;
+}
+
+/* Order form styling */
+.order-form {
+  margin-top: 20px;
+}
+
+/* Styling for menu, price, and table number section */
+.menu-section,
+.price-section,
+.table-no-section {
+  margin-bottom: 20px; /* Add more space between sections */
+  padding: 10px; /* Add padding to create boxes */
+  border: 1px solid #ccc; /* Add border to create boxes */
+  border-radius: 5px;
+  background-color: #fff; /* White */
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+/* Styling for table number input field */
+.table-no-section input[type="number"] {
+  width: 50px;
+}
+
+/* ... Other styles ... */
+
+  form button {
+    padding: 10px;
+    background-color: #303f9f; /* Indigo */
+    color: #fff; /* White */
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  
+  #orderList {
+    margin-top: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #fff; /* White */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    padding: 10px;
+  }
+  
+  
+  .order-item {
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    background-color: #fff; /* White */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  }
+  
